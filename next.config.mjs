@@ -3,9 +3,7 @@ const isGithubPages = process.env.GITHUB_ACTIONS === "true" || process.env.NODE_
 const repoName = "nextgenifty";
 
 const nextConfig = {
-  output: "export",
-  basePath: isGithubPages ? `/${repoName}` : "",
-  assetPrefix: isGithubPages ? `/${repoName}` : "",
+
   trailingSlash: true,
   images: {
     unoptimized: true,
