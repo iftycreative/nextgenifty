@@ -99,7 +99,7 @@ const VideoBackground = forwardRef<VideoBackgroundHandle, VideoBackgroundProps>(
         {/* HTML5 Video Layer */}
         <video
           ref={videoRef}
-          src="/video/hero.mp4"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/video/hero.mp4`}
           muted
           playsInline
           preload="auto"
