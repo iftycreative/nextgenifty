@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 650" width="100%" height="100%" fill="none">
+  <rect width="1400" height="650" fill="#09090b"/>
+  <line x1="0" y1="120" x2="1400" y2="120" stroke="#1f1f24" stroke-width="1"/>
+  <line x1="0" y1="530" x2="1400" y2="530" stroke="#1f1f24" stroke-width="1"/>
+  
+  <!-- Diagonal kinetic cuts -->
+  <path d="M-100 650 L500 0 L650 0 L50 650 Z" fill="#14141a" opacity="0.6"/>
+  <path d="M520 650 L1120 0 L1200 0 L600 650 Z" fill="#1c1c24" opacity="0.4"/>
+  <line x1="450" y1="650" x2="1050" y2="0" stroke="#FF3B81" stroke-width="3"/>
+  
+  <text x="120" y="320" font-family="'Space Grotesk', sans-serif" font-size="76" font-weight="900" fill="#F5F5F5" letter-spacing="-2">KINETIC VELOCITY</text>
+  <text x="120" y="370" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="600" fill="#FF3B81" letter-spacing="6">DIGITAL BILLBOARD &amp; MASTHEAD SYSTEM</text>
+  <text x="120" y="440" font-family="'Inter', sans-serif" font-size="14" fill="#999999">HIGH SPEED VISUAL CAMPAIGN FORMAT</text>
+  <text x="1280" y="320" font-family="'Space Grotesk', monospace" font-size="16" fill="#666666" text-anchor="end">05 // BANNER</text>
+</svg>

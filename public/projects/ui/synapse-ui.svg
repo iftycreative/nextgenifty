@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%" fill="none">
+  <rect width="1200" height="800" fill="#08080a"/>
+  
+  <!-- Browser Frame -->
+  <rect x="50" y="50" width="1100" height="700" rx="12" fill="#0f0f13" stroke="#222226" stroke-width="1.5"/>
+  <rect x="50" y="50" width="1100" height="48" rx="12" fill="#141418"/>
+  <circle cx="80" cy="74" r="6" fill="#333333"/>
+  <circle cx="102" cy="74" r="6" fill="#333333"/>
+  <circle cx="124" cy="74" r="6" fill="#333333"/>
+  <rect x="160" y="62" width="340" height="24" rx="4" fill="#09090b"/>
+  <text x="180" y="78" font-family="'Space Grotesk', monospace" font-size="11" fill="#666666">synapse.ai/telemetry/v2</text>
+  
+  <!-- Sidebar -->
+  <rect x="50" y="98" width="220" height="652" fill="#0b0b0e" stroke="#1d1d22" stroke-width="1"/>
+  <rect x="80" y="140" width="160" height="14" rx="4" fill="#FF3B81" opacity="0.8"/>
+  <rect x="80" y="170" width="120" height="10" rx="3" fill="#2a2a30"/>
+  <rect x="80" y="196" width="140" height="10" rx="3" fill="#2a2a30"/>
+  <rect x="80" y="222" width="100" height="10" rx="3" fill="#2a2a30"/>
+
+  <!-- Content Dashboard -->
+  <g transform="translate(300, 130)">
+    <text x="0" y="30" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" fill="#F5F5F5">SYNAPSE AI ENGINE</text>
+    <text x="0" y="55" font-family="'Inter', sans-serif" font-size="12" fill="#888888">REAL-TIME INFERENCE TELEMETRY</text>
+    
+    <!-- Metric Cards -->
+    <rect x="0" y="80" width="240" height="120" rx="8" fill="#131318" stroke="#222228" stroke-width="1"/>
+    <text x="24" y="120" font-family="'Inter', sans-serif" font-size="12" fill="#888888">Latency</text>
+    <text x="24" y="160" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700" fill="#F5F5F5">12.4<tspan font-size="16" fill="#FF3B81">ms</tspan></text>
+    
+    <rect x="260" y="80" width="240" height="120" rx="8" fill="#131318" stroke="#222228" stroke-width="1"/>
+    <text x="284" y="120" font-family="'Inter', sans-serif" font-size="12" fill="#888888">Throughput</text>
+    <text x="284" y="160" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700" fill="#F5F5F5">4.8<tspan font-size="16" fill="#FF3B81">k/s</tspan></text>
+    
+    <rect x="520" y="80" width="280" height="120" rx="8" fill="#131318" stroke="#222228" stroke-width="1"/>
+    <text x="544" y="120" font-family="'Inter', sans-serif" font-size="12" fill="#888888">Status</text>
+    <text x="544" y="160" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#FF3B81">OPERATIONAL</text>
+
+    <!-- Chart Simulation -->
+    <rect x="0" y="220" width="800" height="340" rx="8" fill="#131318" stroke="#222228" stroke-width="1"/>
+    <path d="M40 480 Q 200 320, 360 400 T 760 300" fill="none" stroke="#FF3B81" stroke-width="2.5"/>
+    <path d="M40 500 Q 200 420, 360 460 T 760 380" fill="none" stroke="#555555" stroke-width="1.5" stroke-dasharray="4 4"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%" fill="none">
+  <rect width="1200" height="800" fill="#0b0b0d"/>
+  <defs>
+    <linearGradient id="vortexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c22"/>
+      <stop offset="50%" stop-color="#111115"/>
+      <stop offset="100%" stop-color="#08080a"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="60" width="1080" height="680" fill="url(#vortexGrad)" stroke="#242424" stroke-width="1.5"/>
+  
+  <!-- Spiral vortex rings -->
+  <g transform="translate(600, 360)">
+    <ellipse rx="280" ry="140" stroke="#333333" stroke-width="1.5" transform="rotate(-25)"/>
+    <ellipse rx="220" ry="110" stroke="#444444" stroke-width="1.5" transform="rotate(-10)"/>
+    <ellipse rx="160" ry="80" stroke="#FF3B81" stroke-width="2" transform="rotate(15)" opacity="0.9"/>
+    <ellipse rx="100" ry="50" stroke="#F5F5F5" stroke-width="2.5" transform="rotate(35)"/>
+    <circle cx="0" cy="0" r="8" fill="#FF3B81"/>
+  </g>
+
+  <!-- Editorial Info Grid -->
+  <line x1="120" y1="620" x2="1080" y2="620" stroke="#242424" stroke-width="1"/>
+  <text x="120" y="660" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" fill="#F5F5F5" letter-spacing="4">VORTEX</text>
+  <text x="120" y="685" font-family="'Inter', sans-serif" font-size="13" fill="#999999" letter-spacing="1.5">BRAND ECOSYSTEM &amp; STRATEGY</text>
+  <text x="1080" y="660" font-family="'Space Grotesk', monospace" font-size="14" fill="#FF3B81" text-anchor="end" letter-spacing="2">02 // BRANDING 2025</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%" fill="none">
+  <rect width="800" height="1000" fill="#070709"/>
+  <rect x="40" y="40" width="720" height="920" rx="16" fill="#0d0d12" stroke="#202028" stroke-width="1.5"/>
+  
+  <!-- Mobile / Editorial Interface Header -->
+  <rect x="70" y="70" width="660" height="40" rx="8" fill="#14141c"/>
+  <circle cx="100" cy="90" r="6" fill="#FF3B81"/>
+  <text x="120" y="94" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" fill="#F5F5F5">ELYSIUM STUDIO</text>
+  
+  <!-- Hero Section in App -->
+  <rect x="70" y="130" width="660" height="360" rx="8" fill="#08080a"/>
+  <text x="110" y="240" font-family="'Space Grotesk', sans-serif" font-size="44" font-weight="800" fill="#F5F5F5">PURE</text>
+  <text x="110" y="290" font-family="'Space Grotesk', sans-serif" font-size="44" font-weight="800" fill="#FF3B81">MOTION.</text>
+  <text x="110" y="340" font-family="'Inter', sans-serif" font-size="14" fill="#888888">CINEMATIC DIGITAL EXPERIENCES</text>
+
+  <!-- Gallery cards -->
+  <rect x="70" y="520" width="315" height="300" rx="8" fill="#14141c" stroke="#262632" stroke-width="1"/>
+  <rect x="415" y="520" width="315" height="300" rx="8" fill="#14141c" stroke="#262632" stroke-width="1"/>
+  
+  <text x="100" y="770" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#F5F5F5">01 // IDENTITY</text>
+  <text x="445" y="770" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#F5F5F5">02 // MOTION</text>
+
+  <text x="400" y="910" font-family="'Space Grotesk', monospace" font-size="13" fill="#666666" text-anchor="middle">08 // UI DESIGN 2026</text>
+</svg>
